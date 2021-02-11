@@ -67,7 +67,7 @@
     background: #000000;
     color: #fff;
     margin-top: auto;
-    margin: 125px 0px -150px;
+    margin: 300px 100px 0px 0px;
   }
   
   /* TODO: Add properties to the cards to achieve the required look */
@@ -99,6 +99,6 @@
     main,
     nav {
       flex-direction: column;
-    }
+    }  
   }
   
