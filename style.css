@@ -35,7 +35,7 @@
 
   .products {
     flex: 2;
-    background-color: #fff;
+    background-color: rgb(194, 0, 0);
     padding: 5px;
     flex-wrap: wrap;
     display: flex;
@@ -44,14 +44,14 @@
     border-radius: 25px;
     margin-top: -1200px;
     margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 600px;
+    margin-right: -20px;
+    margin-left: 485px;
 
   }
 
   aside {
     flex: 1;
-    background-color: #0046af;
+    background-color: #0058db;
     padding: 80px;
     font-size: 24px;
     text-align: left;
@@ -72,7 +72,7 @@
   
   /* TODO: Add properties to the cards to achieve the required look */
   .card {
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 5px rgb(80, 0, 0);
     border-radius: 50px;
     border-style: solid;
     border-width: 1px;
