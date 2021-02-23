@@ -31,7 +31,7 @@
     <main>
 
       <!-- Sidebar -->
-        <aside class=".li">
+      <aside>
         <h1>**UPDATE LOG**</h1>
         <li>BASE WEBSITE HAS BEEN CODED</li>
         <li>GALACTIC WARS GAME ADDED</li>
@@ -73,18 +73,30 @@
           />
         </section>
       </div>
-      </div>
-    <a href="foxy_land.html">
-       <img src="https://i.ibb.co/fNm1V3b/foxyland.jpg" alt="foxyland" border="4"style="width:200px;height:200px; margin:0px 0px 530px 352px;color: cyan;"> </a>
-    </a>
-       <a href="galactic_wars.html">
-       <img src="https://i.ibb.co/VmxjBFs/galacticwars.png" alt="galacticwars" border="4"; style="width:200px;height:200px; margin:0px 0px 530px -652px;color: cyan;"></a>
-       <center><h2 style="color:red margin:0px 0px 530px 252px">Galactic Wars</h2style></center>
 
-        <a href="synthhero.html">
-        <img src="https://img-hws.pog.com/cloud/v2-y8-thumbs-big-thumbnails-001/115802/big.gif" alt="synthhero" border="4"style="width:200px;height:200px; margin:-805px -100px 900px 1600px;color: cyan;">
+<!-- Play.iDevGames.co.uk Responsive Embed Code for Synth Hero -->
+<script>
+    window.onload = function() {
+        var thegamelink = "https://play.idevgames.co.uk/embed/synth-hero";
+        var ref = document.referrer;
+        var theurl = document.referrer;
+        ref = ref.substring(ref.indexOf("://") + 3);
+        ref = ref.split("/")[0];
+        if(ref == "my-ga.me"){
+        theurl = "true"
+        } else {
+            theurl = "false"
+        } 
+        document.getElementById("embededGame").src = thegamelink+"/"+theurl+"?url="+window.location.href;
+    }
+</script>
+<div style="position: relative;height: 0;overflow: hidden;padding-bottom: 56.25%;">
+    <iframe id="embededGame" src="https://play.idevgames.co.uk/embed/synth-hero" scrolling="no" seamless="seamless" frameBorder="0" style="position: absolute;top:0;left: 0;width: 50%;height: 50%;">Browser not compatible.</iframe>
+</div>        
+      <img align ="right" src="https://i.ibb.co/6n9gFVK/Wakko.png" style="width:400px;height:700px; margin:-1250px 50px -500px 1700px;"> 
+    <img align ="right" src="https://i.ibb.co/jWLb0s1/1610779313407083.png" style="width:450px;height:500px; margin:-1600px -75px -450px 1700px;"> 
 
-    </main>
+  </main>
 
     
     <!-- Footer -->
@@ -95,3 +107,5 @@
     </footer>
   </body>
 </html>
+
+
